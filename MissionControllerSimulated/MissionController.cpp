@@ -4,7 +4,6 @@ MissionController::MissionController()
     sr = std::make_shared<SimulatedRobot>();
     default_position    = { 0,0 };
     initial_target      = { 10,10 };
-    stop_target         = { INT_MAX, INT_MAX };
 }
 
 MissionController::~MissionController()

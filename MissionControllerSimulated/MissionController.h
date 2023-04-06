@@ -9,8 +9,6 @@ class MissionController
     std::shared_ptr<SimulatedRobot> sr  = nullptr;
     std::pair<int,int> default_position = { 0,0 };
     std::pair<int,int> initial_target   = { 10,10 };
-    std::pair<int, int> stop_target;
-    std::thread robotThread;
 public:
     MissionController();
     ~MissionController();

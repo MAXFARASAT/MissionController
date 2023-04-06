@@ -43,6 +43,4 @@ void TestRobot::runTestSequence()
 	
 	if(robotThread.joinable())
 		robotThread.join();
-	delete missionController;
-	missionController = nullptr;
 }
